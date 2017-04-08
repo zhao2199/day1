@@ -1,0 +1,226 @@
+body {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: -webkit-flex;
+  flex-direction: column; }
+
+.head {
+  height: 4.2rem;
+  line-height: 4.2rem;
+  position: relative; }
+  .head h1 {
+    font-weight: 100;
+    text-align: center; }
+  .head i {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    font-size: 18px; }
+  .head span {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 18px; }
+
+.content {
+  flex: 1;
+  overflow-y: scroll; }
+
+.banner img {
+  width: 100%;
+  height: 14rem; }
+
+.main {
+  margin-top: 15px; }
+  .main h2 {
+    font-size: 16px;
+    color: #4f99f2;
+    margin-left: 15px;
+    margin-bottom: 15px; }
+
+.main .one h3 {
+  font-size: 14px;
+  margin-left: 15px; }
+.main .one p {
+  line-height: 25px;
+  margin-left: 30px; }
+
+.ka {
+  height: 4rem;
+  line-height: 4rem;
+  background: #4f99f2;
+  text-align: center;
+  font-size: 14px;
+  color: #ffffff;
+  border-top: 8px solid #eeeeee; }
+
+.pic {
+  height: 25rem;
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5; }
+  .pic img {
+    width: 14rem;
+    height: 18rem;
+    margin-top: 20px; }
+
+.yi {
+  height: 4rem;
+  line-height: 4rem;
+  border-bottom: 1px solid #e5e5e5;
+  font-size: 14px;
+  padding-left: 15px; }
+
+.menu {
+  height: 5rem;
+  border-bottom: 1px solid #e5e5e5; }
+  .menu ul {
+    display: -webkit-flex;
+    justify-content: space-around; }
+    .menu ul li {
+      width: 50%;
+      text-align: center;
+      border-right: 1px solid #e5e5e5;
+      margin-top: 12px;
+      line-height: 20px; }
+      .menu ul li .blue {
+        color: #4f99f2; }
+
+.menu2 {
+  height: 9rem;
+  border-bottom: 1px solid #e5e5e5; }
+  .menu2 ul {
+    display: -webkit-flex;
+    justify-content: space-between;
+    margin-top: 10px; }
+    .menu2 ul li {
+      width: 45%;
+      margin-left: 15px; }
+
+.nei dl {
+  display: -webkit-flex; }
+  .nei dl dt img {
+    width: 4.5rem;
+    height: 4.5rem;
+    padding: 15px; }
+  .nei dl dd {
+    font-size: 14px;
+    margin-top: 15px;
+    line-height: 20px; }
+    .nei dl dd .look {
+      color: #4f99f2;
+      border-bottom: 1px solid #4f99f2; }
+.nei p {
+  font-size: 14px;
+  margin-left: 15px;
+  line-height: 25px; }
+  .nei p img {
+    width: 95%;
+    height: 15rem; }
+
+.dang {
+  margin-top: 3rem; }
+  .dang h4 {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 100;
+    color: #4f99f2; }
+  .dang p {
+    text-align: center;
+    color: #4f99f2;
+    margin-top: 5px; }
+    .dang p img {
+      width: 10rem;
+      height: 18px; }
+  .dang div {
+    display: -webkit-flex;
+    text-align: center;
+    flex-wrap: wrap; }
+    .dang div dl {
+      width: 50%;
+      margin-top: 20px; }
+      .dang div dl dt img {
+        width: 8rem;
+        height: 8rem; }
+      .dang div dl dd {
+        color: #4f99f2;
+        margin-top: 8px; }
+
+.chan {
+  margin-top: 2rem; }
+  .chan p {
+    text-align: center;
+    font-size: 16px;
+    color: #4f99f2; }
+  .chan ul {
+    display: -webkit-flex;
+    justify-content: space-around;
+    margin-top: 2.5rem;
+    font-size: 14px; }
+
+.jie p {
+  text-align: center;
+  font-size: 16px;
+  color: #4f99f2;
+  margin-top: 2rem; }
+  .jie p img {
+    width: 14rem;
+    height: 18rem;
+    margin-top: 10px; }
+.jie span {
+  margin-top: 10px;
+  font-size: 14px;
+  text-align: center;
+  display: inline-block;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem; }
+
+.gong h1 {
+  text-align: center;
+  font-size: 16px;
+  color: #4f99f2;
+  margin-top: 2rem;
+  margin-bottom: 10px; }
+.gong p {
+  padding-left: 10px;
+  padding-right: 10px;
+  line-height: 20px; }
+
+.jia p {
+  height: 4.5rem;
+  line-height: 4.5rem;
+  padding-left: 15px;
+  font-size: 16px;
+  border-bottom: 1px solid #e5e5e5; }
+.jia h1 {
+  text-align: center;
+  font-size: 18px;
+  color: #4f99f2;
+  margin-top: 2rem;
+  font-weight: 100; }
+
+.di {
+  margin-top: 15px;
+  display: -webkit-flex;
+  justify-content: space-between;
+  text-align: center;
+  margin-bottom: 8px; }
+  .di dl {
+    width: 33.3%; }
+    .di dl dt img {
+      width: 8rem;
+      height: 8rem; }
+    .di dl dd p img {
+      width: 7rem;
+      height: 12px; }
+
+.foot {
+  height: 4rem;
+  line-height: 4rem;
+  background: #eeeeee;
+  font-size: 14px;
+  text-align: center; }
+
+/*# sourceMappingURL=style.css.map */
